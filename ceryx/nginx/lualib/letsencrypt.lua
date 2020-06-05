@@ -27,7 +27,8 @@ auto_ssl:set(
     "redis",
     {
         host = redis.host,
-        port = redis.port
+        port = redis.port,
+        auth = redis.password,
     }
 )
 
